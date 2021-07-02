@@ -1,0 +1,50 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Fontawesome
+@import "~admin-lte/plugins/fontawesome-free/css/all.min.css";
+
+//Admin LTE
+@import "~admin-lte/dist/css/adminlte.min.css";
+@import "~admin-lte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css";
+
+.user-img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.dropdown-menu li {
+    border-radius: 3px !important;
+    line-height: 25px !important;
+    margin: 4px !important;
+    padding: 4px;
+    text-align: left !important;
+}
+.navbar-nav li a{
+    text-decoration: none;
+}
+.dropdown-menu {
+    width: auto !important;
+    position: absolute !important;
+}
+.dropdown-menu li a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    white-space: nowrap;
+    color: #777;
+    font-size: 15px;
+}
+.dropdown-menu li:hover{
+    background: #ECF1F0;
+}
+.dropdown-menu li a .fa {
+    margin-right: 10px;
+}
